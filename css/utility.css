@@ -2,20 +2,22 @@
 .pointer-cursor {
   cursor: pointer;
 }
+/*============================================================*/
+/*Positioning*/
+
+/*Float Elements*/
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.float-none {
+  float: none;
+}
 
 /*============================================================*/
 /*Text Formatting*/
-.orange-text, 
-.orange-text-hover {
-  color: #f7a920;
-}
-.orange-text-hover:hover {
-  color: #f38b23;
-  transition: 0.5s all;
-}
-.black-text {
-  color: #111;
-}
 .normal-text {
   font-weight: normal;
 }
