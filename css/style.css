@@ -291,3 +291,46 @@ p.fire {
     border-radius: 5px;
     font-size: 0.8rem;
 }
+
+.title {
+    font-size: 1.3rem;
+    font-family: var(--Rubik);
+}
+
+.video-btn p {
+    display: inline-block;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+}
+.username {
+    font-size: 1.2rem;
+}
+.follow-btn {
+    width: 150px;
+    height: 40px;
+    border: 2px solid var(--light-black);
+    border-radius: 4px;
+    font-family: var(--Snigle-font);
+}
+button.follow-btn {
+    background: none;
+}
+button.follow-btn p {
+    display: inline-block;
+}
+.num-of-comments {
+    text-align: right;
+}
+#comment-box {
+    resize: none;
+    max-width: 450px;
+}
+.comment-btn {
+    width: 100px;
+    padding: 8px;
+}
